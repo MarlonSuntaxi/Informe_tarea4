@@ -965,7 +965,7 @@ Sumatoria de I entran = Sumatoria de I salen
 
 4.-Video
 
-
+https://youtu.be/4_R56hR49fY
 
 5.-Conclusiones 
 
