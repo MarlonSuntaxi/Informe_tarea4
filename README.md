@@ -852,72 +852,131 @@ SECCIÓN 8–8 Conversiones delta a Y (Δ a Y) y Y a Δ
 ![image](https://user-images.githubusercontent.com/105823435/176980667-f56a66b8-591a-445d-856c-d0ef761c4914.png)
 
 a) 
-R_x=(R_C⋅R_A)/(R_A+R_B+R_C )
+Rx=(R_C⋅R_A)/(R_A+R_B+R_C )
 
-R_x=(1.0MΩ⋅0.56MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
+Rx=(1.0MΩ⋅0.56MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
 
-R_x=0.5MΩ/3.06MΩ
+Rx=0.5MΩ/3.06MΩ
 
-R_x=0.16MΩ
+Rx=0.16MΩ
 
-R_y=(R_C⋅R_B)/(R_A+R_B+R_C )
+Ry=(RC⋅*RB)/(RA+RB+RC)
 
-R_y=(1.0MΩ⋅1.5MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
+Ry=(1.0MΩ⋅1.5MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
 
-R_Y=1.5MΩ/3.06MΩ
+RY=1.5MΩ/3.06MΩ
 
-R_y=0.49MΩ
+Ry=0.49MΩ
 
-R_z=(R_A⋅R_B)/(R_A+R_B+R_C )
+Rz=(RA⋅*RB)/(RA+RB+RC )
 
-R_z=(0.56MΩ⋅1.5MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
+Rz=(0.56MΩ⋅1.5MΩ)/(0.56MΩ+1.5MΩ+1.0MΩ)
 
 Rz=0.84MΩ/3.06MΩ
 
 R_z=0,27MΩ
 
 b)
-R_x=(R_A⋅R_B)/(R_A+R_B+R_C )
+Rx=(RA⋅*RB)/(RA+R*B+RC )
 
-R_x=(1.0⋅2.7)/(1.0+2.7+2.2)
+Rx=(1.0⋅2.7)/(1.0+2.7+2.2)
 
-R_x=2.7Ω/5.9Ω
+Rx=2.7Ω/5.9Ω
 
-R_x=0.46Ω
+Rx=0.46Ω
 
-R_y=(R_A⋅R_B)/(R_A+R_B+R_C )
+Ry=(RA*⋅RB)/(RA+RB+RC )
 
-R_y=(1.0⋅2.2)/(1.0+2.7+2.2)
+Ry=(1.0*⋅2.2)/(1.0+2.7+2.2)
 
-R_y=2.2/5.9
+Ry=2.2/5.9
 
-R_y=0.37Ω
+Ry=0.37Ω
 
-Rz=(R_C⋅R_B)/(R_A+R_B+R_C )
+Rz=(RC*⋅RB)/(RA+RB+RC)
 
-Rz=(2.2⋅2.7)/(1.0+2.7+2.2)
+Rz=(2.2*2.7)/(1.0+2.7+2.2)
 
 Rz=5.94/5.9
 
 Rz=1.0Ω
 
+36.Determine todas las corrientes que circulan en el circuito de la figura 8-90.
+
+![image](https://user-images.githubusercontent.com/105823435/176980864-85d84e84-2ac1-4b88-bf58-cfacfe1a76fb.png)
+
+Ley de corrientes de Kirchhoff 
+
+I1+I3+I4=0
+
+v(B-V1 )/R1 +vB/R3 +vB/R4 =0
+
+(vB-136)/10+vB/22+vB/12=0
+
+(66(vB-136)+30vB+55vB)/660=0
+
+66vB-8976+30vB+55vB=0
+
+151vB-8976=0
+
+151VB=8976
+
+vB=59,44v
+
+I2+I3^'+I5=0
+
+(vC-v1)/R2 +vC/R3 +vC/R5 =0
+
+(vC-136)/39+vC/22+vC/9.1=0
+
+vc/39-136/39+vc/22+vc/9.1 =0
+
+Vc(1/39+1/22+1/9,1)-3,49=0
+
+vC(0,18)=3,49
+
+vC=3,49/0,18
+
+v_C=19,38v
+
+I1=(v_B-v_1)/R_1 =59,44/10=-7,65A
+
+I2=vB/R3=59,44/22=2,70A
+
+I3=VB/R4 =59.44/12=4.95A
+
+I4=(vc-v1)/R2 =(19.38-136)/39=-2.99
+
+I3^'=vc/22=19.38/22=0.88
+
+I3^'=vc/22=19.38/22=0.88
+
+I5=vc/Rs =19.38/9.1=2.12
+
+I3+I3´=4.95+0.88
+
+I3=5.83
+
+Sumatoria de I entran = Sumatoria de I salen
+
+7.65+2.99=5.83+2,70+2.12
+
+10.646=10.646A
+
+4.-Video
 
 
 
+5.-Conclusiones 
 
+Se analizó y aplico los métodos expuestos en los capítulos siete y ocho.
 
+Se determino las relaciones serie-paralelo de los circuitos resistivos.
 
+Se identificó el teorema de superposición, de Thevenin y el de Norton.
 
+6.-Bibliografía
 
-
-
-
-
-
-
-
-
-
-
-
+Alarcon, L. (4 de Septiembre de 2017). lafisicayquimica. Obtenido de lafisicayquimica: https://lafisicayquimica.com/que-son-los-circuitos-en-serie-y-en-paralelo/
+Torres, H. (15 de Julio de 2018). hetpro-store. Obtenido de hetpro-store: https://hetpro-store.com/TUTORIALES/divisor-de-voltaje/#:~:text=Un%20divisor%20de%20voltaje%2C%20es,resistencias%20involucradas%20en%20el%20divisor.
 
